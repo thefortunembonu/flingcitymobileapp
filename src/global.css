@@ -7,5 +7,21 @@
 @theme {
     --color-primary: #ff007f;
     --color-secondary: #7096d1;
-    --color-background: #f2f0ef
+    --color-background: #f2f0ef;
+    --color-accent: #F574C5;
+}
+
+@layer components {
+    .tabs-icon {
+        @apply size-12 items-center justify-center;
+    }
+    .tabs-pill {
+        @apply size-12 items-center justify-center rounded-full bg-transparent;
+    }
+    .tabs-active {
+        @apply bg-accent;
+    }
+    .tabs-glyph {
+        @apply size-6;
+    }
 }
