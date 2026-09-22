@@ -37,6 +37,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "15df16d0-dd1d-419b-9adc-324972b8d3f5"
+      }
+    },
+    "owner": "fortuneforrena-team"
   }
 }
